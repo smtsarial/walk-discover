@@ -5,7 +5,19 @@ import rainy from "../components/rainy"
 import forest from "../components/forest"
 import App from "../App"
 import NotFoundPage from "../components/NotFoundPage"
-const AppRouter = () => (
+
+
+class AppRouter extends Component {
+  constructor(props) {
+    super(props);
+    
+    // The listener
+    this.props.history.listen((location, action) => {
+      rg4js('trackEvent', { type: 'pageView', path: location.pathname });
+    });
+ 
+  }
+  render(){
     <BrowserRouter>
       <div>
         <Switch>
@@ -17,6 +29,6 @@ const AppRouter = () => (
         </Switch>
       </div>
     </BrowserRouter>
-  );
-
+  };
+} 
 export default AppRouter;
