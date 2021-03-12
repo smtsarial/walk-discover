@@ -9022,6 +9022,11 @@ raw-body@2.4.0:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
+raygun4js@^2.22.0:
+  version "2.22.0"
+  resolved "https://registry.yarnpkg.com/raygun4js/-/raygun4js-2.22.0.tgz#fbae50d926eb4fd7b3b725344cd9ad0118fab90c"
+  integrity sha512-fAsud5GNXro+2I608KWc9/Iy0ZbYAsZdI4D0FKfnB74/CT2eScO9cnX2VD/GdPwIxD8kduRqqeXysL3MRavWCQ==
+
 react-addons-css-transition-group@^15.6.2:
   version "15.6.2"
   resolved "https://registry.npmjs.org/react-addons-css-transition-group/-/react-addons-css-transition-group-15.6.2.tgz"
