@@ -9,7 +9,7 @@ import Disqus from "disqus-react";
 
 const BurgerMenu = (props) => {
   // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
-  const disqusShortname = "https-walkanddiscover-herokuapp-com";
+  const disqusShortname = "walkanddiscover";
   const disqusConfig = {
     url: "https://walkanddiscover.herokuapp.com",
     identifier: "article-id",
