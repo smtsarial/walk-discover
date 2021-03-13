@@ -9,11 +9,11 @@ import Disqus from "disqus-react";
 
 const BurgerMenu = (props) => {
   // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
-  const disqusShortname = "your-site-shortname";
+  const disqusShortname = "https-walkanddiscover-herokuapp-com";
   const disqusConfig = {
-    url: "http://localhost:3000",
+    url: "https://walkanddiscover.herokuapp.com",
     identifier: "article-id",
-    title: "Title of Your Article",
+    title: "Walk & Discover",
   };
 
   const [open, setOpen] = React.useState(false);
