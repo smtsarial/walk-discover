@@ -10,7 +10,6 @@ function numberForSource (length) {
 export default class Snow extends React.Component {
   state = {
     ytsource: [
-      "https://www.youtube.com/watch?v=CGslieDL-04&ab",
       "https://www.youtube.com/watch?v=kGJr1Nh-1CY",
       "https://www.youtube.com/watch?v=ESCNUu4lBE8",
       "https://www.youtube.com/watch?v=1xG2sizmXkM",
