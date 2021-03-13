@@ -2,20 +2,18 @@
 <html lang="en">
 
 <head>
-  
   <meta charset="utf-8" />
   <link rel="icon" href="public/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Discover the world while walking in the beautiful places. You can walk in the snow, rain, forest and more. Select whatever you want. You can walk in the Paris maybe İstanbul. If you bored select snow section maybe you can walk in the snow. Enjoy it." />
+  <meta name="description"
+    content="Discover the world while walking in the beautiful places. You can walk in the snow, rain, forest and more. Select whatever you want. You can walk in the Paris maybe İstanbul. If you bored select snow section maybe you can walk in the snow. Enjoy it." />
 
   <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
   <script src="https://kit.fontawesome.com/228006f19a.js" crossorigin="anonymous"></script>
 
   <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script type="text/javascript" src="jquery.youtube-background.js?v=1.0.7"></script>
-  
-  <script data-ad-client="ca-pub-6998401843365764" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
   <!--
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
@@ -28,6 +26,11 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <style>
+    body {
+      background-color: #373a47;
+    }
+  </style>
   <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
@@ -36,6 +39,26 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script id="dsq-count-scr" src="//https-walkanddiscover-herokuapp-com.disqus.com/count.js" async></script>
+  <script>
+    /**
+    *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+    *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables    */
+    /*
+    var disqus_config = function () {
+    this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+    this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    */
+    (function () { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://https-walkanddiscover-herokuapp-com.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+
+
 </body>
 <script type="text/javascript">
   jQuery(document).ready(function () {

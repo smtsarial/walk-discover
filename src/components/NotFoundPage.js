@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 const NotFoundPage = () => (
   <div>
-    404 - <Link to="/">Go home</Link>
+    404 - <a id="home"  href="/rainy">Go HOME</a>
   </div>
 );
 

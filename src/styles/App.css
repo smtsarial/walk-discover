@@ -1,67 +1,67 @@
-    html,
-    body {
-      font-family: 'Lato', sans-serif;
-      color: #1d1d1d;
-      padding: 0px;
-      margin: 0px;
-      overflow:hidden;
-    }
+html,
+body {
+  font-family: "Lato", sans-serif;
+  color: #373a47;
+  padding: 0px;
+  margin: 0px;
+  overflow: hidden;
+}
 
-    .example-marquee {
-      position: relative;
-    }
+.example-marquee {
+  position: relative;
+}
 
-    .content {
-      display: table;
-      width: 100%;
-      min-height: 100vh;
-      z-index: 1;
-      position: relative;
-    }
+.content {
+  display: table;
+  width: 100%;
+  min-height: 100vh;
+  z-index: 1;
+  position: relative;
+}
 
-    .content .inner {
-      display: table-cell;
-      /*vertical-align: middle;*/
-      text-align: center;
-      /*padding-left: 16px;
+.content .inner {
+  display: table-cell;
+  /*vertical-align: middle;*/
+  text-align: center;
+  /*padding-left: 16px;
       padding-right: 16px;
       */
-      overflow: hidden;
-    }
+  overflow: hidden;
+}
 
-    .content .inner h1 {
-      font-size: 50px;
-      color: white;
-      opacity: 1;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
-      transition: all 5s ease;
-    }
-  
-    .video-background-controls button {
-      font-size: 32px;
-      display: inline-block;
-      padding: 0px;
-      margin: 0px;
-      height: 32px;
-      width: 32px;
-      border-radius: 16px;
-      line-height: 32px;
-      border: none;
-      background: none;
-      -webkit-appearance: none;
-      color: white;
-      filter: drop-shadow(0px 0px 1px black);
-      cursor: pointer;
-      opacity: 1;
-      transition: all 250ms ease-in-out;
-      margin-left: 10px;
-    }
+.content .inner h1 {
+  font-size: 50px;
+  color: white;
+  opacity: 1;
+  text-shadow: 0px 1px 3px rgba(0, 0, 0, 0.5);
+  transition: all 5s ease;
+}
 
-    .video-background-controls button:hover {
-      opacity: 0.5;
-    }
+.video-background-controls button {
+  font-size: 32px;
+  display: inline-block;
+  padding: 0px;
+  margin: 0px;
+  height: 32px;
+  width: 32px;
+  border-radius: 16px;
+  line-height: 32px;
+  border: none;
+  background: none;
+  -webkit-appearance: none;
+  color: #373a47;
+  filter: drop-shadow(0px 0px 1px black);
+  cursor: pointer;
+  opacity: 1;
+  transition: all 250ms ease-in-out;
+  margin-left: 10px;
+}
 
-    iframe {
-      transition: opacity 500ms ease-in-out;
-      transition-delay: 250ms;
-    }
+.video-background-controls button:hover {
+  opacity: 0.5;
+}
+
+iframe {
+  transition: opacity 500ms ease-in-out;
+  transition-delay: 250ms;
+}

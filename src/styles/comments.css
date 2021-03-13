@@ -1,0 +1,41 @@
+.html {
+  background-color: #373a47;
+}
+
+.body {
+  background-color: #373a47;
+  background: #373a47;
+}
+
+
+.comment-page {
+  background-color: #373a47;
+}
+
+.comment-page {
+  border: 15px solid #848aa5;
+  padding: 20px;
+  margin: 20px;
+  z-index:0;
+}
+.title-comment{
+    color: white;
+    font-size : 60px;
+    text-align:center;
+}
+
+.go-menu:link, .go-menu:visited {
+    background-color: #21232b;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 35px;
+    display: block;
+    margin:auto;
+  }
+  
+  .go-menu:hover, .go-menu:active {
+    background-color: #505466;
+}
