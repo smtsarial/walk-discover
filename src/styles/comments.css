@@ -1,15 +1,17 @@
-.html {
+html {
   background-color: #373a47;
+
 }
 
-.body {
+body {
   background-color: #373a47;
   background: #373a47;
+  overflow: scroll;
 }
-
 
 .comment-page {
   background-color: #373a47;
+
 }
 
 .comment-page {
@@ -17,11 +19,15 @@
   padding: 20px;
   margin: 20px;
   z-index:0;
+  
+
 }
 .title-comment{
     color: white;
     font-size : 60px;
     text-align:center;
+    padding: 2px;
+    margin: 2px;
 }
 
 .go-menu:link, .go-menu:visited {
