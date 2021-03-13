@@ -13,7 +13,19 @@ body {
   background-color: #373a47;
 
 }
+.warning{
+  color : white;
+  text-align: center;
+}
 
+#disqus_thread{
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.click-here{
+  color :red;
+  font-weight : bold;
+}
 .comment-page {
   border: 15px solid #848aa5;
   padding: 20px;

@@ -14,8 +14,8 @@ const BurgerMenu = (props) => {
       <a id="rain" className="menu-item" href="/rainy">🌧️ Walking in Rain</a>
       <a id="rain" className="menu-item" href="/forest">🌲 Walking in Forest</a>
       <a id="train" className="menu-item" href="/train">🚆 Train Ride</a>
-      <a id= "videoSource" href={props.videoSource} target="_blank">ℹ️ Video Sources</a>
-      <a id= "social" href="https://www.instagram.com/smtsarial" target="_blank">🔥 Follow Me!</a>
+      <a id= "videoSource" href={props.videoSource} rel="noreferrer" target="_blank">ℹ️ Video Sources</a>
+      <a id= "social" href="https://www.instagram.com/smtsarial" rel="noreferrer" target="_blank">🔥 Follow Me!</a>
       <a id="comments" className="menu-item" href="/comments">❤️ Comments</a>
     </Menu>
   );

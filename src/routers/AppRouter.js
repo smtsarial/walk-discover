@@ -15,7 +15,8 @@ const AppRouter = () => (
           <Route path="/" component={App} exact={true} />
           <Route path="/snow" component={snow} />
           <Route path="/rainy" component={rainy} />
-          <Route path="/forest" component={forest} />       <Route path="/train" component={train} />
+          <Route path="/forest" component={forest} />       
+          <Route path="/train" component={train} />
           <Route path="/comments" component={comment} />
           <Route component={NotFoundPage} />
         </Switch>
