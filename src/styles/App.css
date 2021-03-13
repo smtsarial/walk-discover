@@ -4,11 +4,12 @@ body {
   color: #373a47;
   padding: 0px;
   margin: 0px;
-
+  overflow:hidden;
 }
 
 .example-marquee {
   position: relative;
+  overflow: hidden;
 }
 
 .content {
@@ -17,15 +18,13 @@ body {
   min-height: 100vh;
   z-index: 1;
   position: relative;
+  overflow: hidden;
 }
 
 .content .inner {
   display: table-cell;
   /*vertical-align: middle;*/
   text-align: center;
-  /*padding-left: 16px;
-      padding-right: 16px;
-      */
   overflow: hidden;
 }
 
@@ -55,10 +54,12 @@ body {
   opacity: 1;
   transition: all 250ms ease-in-out;
   margin-left: 10px;
+  
 }
 
 .video-background-controls button:hover {
   opacity: 0.5;
+  color: green;
 }
 
 iframe {

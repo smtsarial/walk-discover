@@ -4,7 +4,6 @@ import snow from "../components/snow"
 import rainy from "../components/rainy"
 import forest from "../components/forest"
 import train from "../components/train"
-import comment from "../components/cooments"
 import App from "../App"
 import NotFoundPage from "../components/NotFoundPage"
 
@@ -17,7 +16,6 @@ const AppRouter = () => (
           <Route path="/rainy" component={rainy} />
           <Route path="/forest" component={forest} />       
           <Route path="/train" component={train} />
-          <Route path="/comments" component={comment} />
           <Route component={NotFoundPage} />
         </Switch>
       </div>

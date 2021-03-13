@@ -5,8 +5,26 @@
   height: 30px;
   left: 36px;
   top: 36px;
+  
+}
+.MuiButton-label{
+  color:red;
+  font-weight:bold;
+  font-size: 1.10em;
 }
 
+.warning{
+  color : rgb(126, 63, 63);
+  text-align: center;
+  font-weight:bold;
+}
+.click-here{
+  color :red;
+  font-weight : bold;
+}
+.MuiDialog-paperWidthSm{
+  background-color:#373a47;
+}
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #373a47;

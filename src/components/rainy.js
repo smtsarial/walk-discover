@@ -1,14 +1,8 @@
 import "../styles/App.css";
-import React from "react";
 import BurgerMenu from "../menu";
+import React from "react";
 
-function numberForSource (length) {
-  const random = Math.floor(Math.random() * length)
-  return random
-}
-
-export default class Rainy extends React.Component {
-  state = {
+ const state ={
     ytsource: [
       "https://www.youtube.com/watch?v=JB0A8Me8EKk",
       "https://www.youtube.com/watch?v=ynLpZGegiJE",
@@ -22,25 +16,34 @@ export default class Rainy extends React.Component {
       "https://www.youtube.com/watch?v=jR1zNpblrlE",
       "https://www.youtube.com/watch?v=jhZfrsfLkDU",
       "https://www.youtube.com/watch?v=JDafTTIohHQ"
-    ],
+    ]
   };
 
+const numberForSource = (length) => {
+  const random = Math.floor(Math.random() * length);
+  return random;
+};
+
+const number = numberForSource(state.ytsource.length-1);
+
+export default class App extends React.Component {
   render() {
     return (
       <main>
         <div className="marquee">
-        <BurgerMenu videoSource = {this.state.ytsource[numberForSource(this.state.ytsource.length)]}></BurgerMenu>
+          <BurgerMenu videoSource={state.ytsource[number]}></BurgerMenu>
           <div
             id="ytbg"
             data-ytbg-fade-in="true"
             data-ytbg-mute-button="true"
             data-ytbg-loop="true"
-            data-ytbg-mobile= "true"
-            data-ytbg-load-background="./image.png"
-            data-youtube={this.state.ytsource[numberForSource(this.state.ytsource.length)]}
+            data-ytbg-mobile="true"
+            data-youtube={state.ytsource[number]}
           ></div>
           <div className="content">
-            <div className="inner"></div>
+            <div className="inner">
+              
+            </div>
           </div>
         </div>
       </main>
