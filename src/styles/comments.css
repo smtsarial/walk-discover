@@ -18,10 +18,7 @@ body {
   text-align: center;
 }
 
-#disqus_thread{
-  padding-left: 5rem;
-  padding-right: 5rem;
-}
+
 .click-here{
   color :red;
   font-weight : bold;
