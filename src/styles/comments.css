@@ -1,12 +1,12 @@
 html {
   background-color: #373a47;
-
+  overflow: scroll;
 }
 
 body {
   background-color: #373a47;
   background: #373a47;
-  overflow: scroll;
+
 }
 
 .comment-page {
