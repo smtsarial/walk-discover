@@ -5,7 +5,7 @@ I am very happy to announce my first reactJS project with you. I struggled to le
 
 Link : https://walkanddiscover.herokuapp.com/
 
-Alt Text
+https://github.com/smtsarial/walk-discover/blob/master/images/22.png
 
 Most of us haven't done much traveling in the past year, thanks to the coronavirus pandemic. So, it's been a while since we've had the pleasant experience of walking, through another city, taking in the sights and the sounds.
 
