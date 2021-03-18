@@ -3,7 +3,7 @@
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
+  right: 36px;
   top: 36px;
   
 }
@@ -37,8 +37,7 @@
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 40px;
-  width: 40px;
+  margin-right: 18px;
 }
 
 /* Color/shape of close button cross */
@@ -74,7 +73,10 @@
   color: #e9e8e3;
   padding: 0.7em;
 }
-
+ .video-background-controls{
+   right: 0;
+   left: 10px;
+ }
 /* Individual item */
 .bm-item ,.bm-item:hover{
   display: inline-block;
@@ -96,4 +98,3 @@
   width: 0px;
   height: 0px;
 }
-

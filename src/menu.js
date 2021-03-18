@@ -6,6 +6,7 @@ import Dialog from "@material-ui/core/Dialog";
 import DialogContent from "@material-ui/core/DialogContent";
 import DialogTitle from "@material-ui/core/DialogTitle";
 import Disqus from "disqus-react";
+import {Link} from "react-router-dom";
 
 const BurgerMenu = (props) => {
   // NOTE: You also need to provide styles, see https://github.com/negomi/react-burger-menu#styling
