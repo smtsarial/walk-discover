@@ -1,3 +1,6 @@
+WALK & DISCOVER
+
+
 Hello everyone, 
 I am very happy to announce my first reactJS project with you. I 
 struggled to learn how to react, and after my reaction course I started 
