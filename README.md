@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+Hello everyone, 
+I am very happy to announce my first reactJS project with you. I 
+struggled to learn how to react, and after my reaction course I started 
+developing this project to practice. It's name is  Walk & 
+Discover.It basicly getting cool walking videos from the youtube and 
+streaming on my page.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Link : [https://walkanddiscover.herokuapp.com/](https://walkanddiscover.herokuapp.com/)
 
-## Available Scripts
+![https://res.cloudinary.com/practicaldev/image/fetch/s--CjRb3ft3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hbfjhy3ytj8cctoivl0x.png](https://res.cloudinary.com/practicaldev/image/fetch/s--CjRb3ft3--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/hbfjhy3ytj8cctoivl0x.png)
 
-In the project directory, you can run:
+Most of us haven't done much traveling in the past year, thanks to 
+the coronavirus pandemic. So, it's been a while since we've had the 
+pleasant experience of walking, through another city, taking in the 
+sights and the sounds.
 
-### `yarn start`
+![https://res.cloudinary.com/practicaldev/image/fetch/s--xRHEdvBf--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5z1eot61w0tp4mpi2hi8.png](https://res.cloudinary.com/practicaldev/image/fetch/s--xRHEdvBf--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/5z1eot61w0tp4mpi2hi8.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+You can choose whatever you want from the left burger-menu. Now 3-4 
+section are avaliable snow, rainy, forest and train. You will be walk in
+ the New York or Toronto or somewhere else maybe whether will be snowy 
+or rainy. You can do all things with walk and discover.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+![https://res.cloudinary.com/practicaldev/image/fetch/s--JkLTjyum--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o9427qtcqpa1uzqs7krz.png](https://res.cloudinary.com/practicaldev/image/fetch/s--JkLTjyum--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/o9427qtcqpa1uzqs7krz.png)
 
-### `yarn test`
+You can use this website while working on something or just for 
+chilling. After 2-4 minutes you will deep into the video and you will 
+love it. Enjoy :D
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![https://res.cloudinary.com/practicaldev/image/fetch/s--M7Frn3F9--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0g9sge5rjz489jx261p0.png](https://res.cloudinary.com/practicaldev/image/fetch/s--M7Frn3F9--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0g9sge5rjz489jx261p0.png)
 
-### `yarn build`
+I will read your comments carefully and develop them according to 
+you. You can write good or bad things about Walk and Discover or you can
+ specify like you should add this or remove this. I am open to all your 
+suggestions. Remember, It is my first project so it will surely have 
+errors and omissions, please do not forget this. Thank you.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Link : [https://walkanddiscover.herokuapp.com/](https://walkanddiscover.herokuapp.com/)
