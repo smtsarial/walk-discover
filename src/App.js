@@ -89,7 +89,7 @@ export default class App extends React.Component {
                 <h1>Hello!</h1>
               </Expire>
               <Expire delay="9000">
-                <h1>You can select whatever you want from left menu!</h1>
+                <h1>You can select whatever you want from right menu!</h1>
               </Expire>
               <Expire delay="10000">
                 <h1>Enjoy it!</h1>
