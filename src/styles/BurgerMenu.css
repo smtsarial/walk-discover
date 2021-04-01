@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* Position and sizing of burger button */
 .bm-burger-button {
   position: fixed;
@@ -98,3 +99,105 @@
   width: 0px;
   height: 0px;
 }
+=======
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
+  
+}
+.MuiButton-label{
+  color:red;
+  font-weight:bold;
+  font-size: 1.10em;
+}
+
+.warning{
+  color : rgb(126, 63, 63);
+  text-align: center;
+  font-weight:bold;
+}
+.click-here{
+  color :red;
+  font-weight : bold;
+}
+.MuiDialog-paperWidthSm{
+  background-color:#373a47;
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  margin-right: 18px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+/*
+  Sidebar wrapper styles
+  Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+  */
+.bm-menu-wrap {
+  position: absolute;
+  height: 100%;
+  top: 0px;
+}
+
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 0em 1.5em 0;
+  font-size: 1.15em;
+  overflow: hidden;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #e9e8e3;
+  padding: 0.7em;
+}
+ .video-background-controls{
+   right: 0;
+   left: 10px;
+ }
+/* Individual item */
+.bm-item ,.bm-item:hover{
+  display: inline-block;
+  background-color: rgb(57, 63, 70);
+  color: white;
+  padding: 14px 10px;
+  border-bottom: 2px solid #18191b;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+
+/* Styling of overlay */
+.bm-overlay {
+  position: absolute;
+  background: rgba(0, 0, 0, 0);
+  width: 0px;
+  height: 0px;
+}
+>>>>>>> f7f4487858b62586fdcce4c73a85673f130692b7
