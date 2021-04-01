@@ -3,10 +3,28 @@
   position: fixed;
   width: 36px;
   height: 30px;
-  left: 36px;
+  right: 36px;
   top: 36px;
+  
+}
+.MuiButton-label{
+  color:red;
+  font-weight:bold;
+  font-size: 1.10em;
 }
 
+.warning{
+  color : rgb(126, 63, 63);
+  text-align: center;
+  font-weight:bold;
+}
+.click-here{
+  color :red;
+  font-weight : bold;
+}
+.MuiDialog-paperWidthSm{
+  background-color:#373a47;
+}
 /* Color/shape of burger icon bars */
 .bm-burger-bars {
   background: #373a47;
@@ -14,13 +32,12 @@
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
+  background: #373a47;
 }
 
 /* Position and sizing of clickable cross button */
 .bm-cross-button {
-  height: 40px;
-  width: 40px;
+  margin-right: 18px;
 }
 
 /* Color/shape of close button cross */
@@ -54,15 +71,18 @@
 /* Wrapper for item list */
 .bm-item-list {
   color: #e9e8e3;
-  padding: 0.9em;
+  padding: 0.7em;
 }
-
+ .video-background-controls{
+   right: 0;
+   left: 10px;
+ }
 /* Individual item */
 .bm-item ,.bm-item:hover{
   display: inline-block;
   background-color: rgb(57, 63, 70);
   color: white;
-  padding: 14px 25px;
+  padding: 14px 10px;
   border-bottom: 2px solid #18191b;
   font-weight: bold;
   text-align: center;

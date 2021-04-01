@@ -276,7 +276,7 @@ YoutubeBackground.prototype.buildHTML = function () {
 	}
 
 	if (this.params['load-background']) {
-		wrapper_styles['background-image'] = './image.png';
+		wrapper_styles['background-image'] = './backgroung.gif';
 		wrapper_styles['background-size'] = 'cover';
 		wrapper_styles['background-repeat'] = 'no-repeat';
 		wrapper_styles['background-position'] = 'center';

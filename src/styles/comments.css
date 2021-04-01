@@ -1,0 +1,61 @@
+html {
+  background-color: #373a47;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+body {
+  background-color: #373a47;
+  background: #373a47;
+  overflow-y: hidden;
+}
+.button-comment{
+  
+}
+.comment-page {
+  background-color: #373a47;
+}
+
+
+.warning{
+  color : black;
+  text-align: center;
+}
+
+
+.click-here{
+  color :red;
+  font-weight : bold;
+}
+.comment-page {
+  border: 15px solid #848aa5;
+  border-radius: 35px;
+  padding: 20px;
+  margin: 20px;
+  z-index:0;
+  
+
+}
+.title-comment{
+    color: white;
+    font-size : 60px;
+    text-align:center;
+    padding: 2px;
+    margin: 2px;
+}
+
+.go-menu:link, .go-menu:visited {
+    background-color: #21232b;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 35px;
+    display: block;
+    margin:auto;
+  }
+  
+  .go-menu:hover, .go-menu:active {
+    background-color: #505466;
+}
