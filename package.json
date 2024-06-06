@@ -4,7 +4,7 @@
   "private": true,
   "homepage": "https://walkanddiscover.herokuapp.com/",
   "engines": {
-    "node": "18.13.0",
+    "node": "^18.13.0",
     "npm": "7.3.0"
   },
   "dependencies": {
