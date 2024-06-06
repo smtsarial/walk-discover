@@ -1,19 +1,8 @@
 import { slide as Menu } from "react-burger-menu";
 import React from "react";
 import "./styles/BurgerMenu.css";
-import Button from "@material-ui/core/Button";
-import Dialog from "@material-ui/core/Dialog";
-import DialogContent from "@material-ui/core/DialogContent";
-import DialogTitle from "@material-ui/core/DialogTitle";
-import Disqus from "disqus-react";
 
 const BurgerMenu = (props) => {
-  const disqusShortname = "walkanddiscover";
-  const disqusConfig = {
-    url: "https://walkanddiscover.herokuapp.com",
-    identifier: "article-id",
-    title: "Walk & Discover",
-  };
 
   const [open, setOpen] = React.useState(false);
   const [scroll, setScroll] = React.useState("paper");
@@ -69,13 +58,13 @@ const BurgerMenu = (props) => {
       </a>
       <a
         id="social"
-        href="https://www.instagram.com/walkandiscover"
+        href="https://www.instagram.com/smtsarial"
         rel="noreferrer"
         target="_blank"
       >
         🔥 Follow Me
       </a>
-      <div>
+      {/* <div>
         <Button className="button-comment" onClick={handleClickOpen()}>
           ❤️ Comments ❤️
         </Button>
@@ -106,7 +95,7 @@ const BurgerMenu = (props) => {
             />
           </DialogContent>
         </Dialog>
-      </div>      
+      </div>       */}
     </Menu>
   );
 };
